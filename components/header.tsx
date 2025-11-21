@@ -34,30 +34,14 @@ export function Header() {
           </Link>
 
           {/* Navigation - Center */}
-          <nav className="hidden md:flex items-center gap-2 absolute left-1/2 -translate-x-1/2">
+          <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
             <Link href="/events">
-              <Button
-                variant="ghost"
-                size="sm"
-                className={`text-sm font-medium transition-all rounded-full ${
-                  pathname === "/events"
-                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                    : ""
-                }`}
-              >
+              <Button variant="ghost" size="sm" className="text-sm font-medium">
                 Events
               </Button>
             </Link>
             <Link href="/about">
-              <Button
-                variant="ghost"
-                size="sm"
-                className={`text-sm font-medium transition-all rounded-full ${
-                  pathname === "/about"
-                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                    : ""
-                }`}
-              >
+              <Button variant="ghost" size="sm" className="text-sm font-medium">
                 About
               </Button>
             </Link>
