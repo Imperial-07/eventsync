@@ -150,7 +150,7 @@ export default function AboutPage() {
               </div>
 
               <div className="grid grid-cols-2 gap-4">
-                <Card className="hover:shadow-lg transition-all">
+                <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                   <CardHeader>
                     <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-2">
                       <Target className="w-6 h-6 text-primary" />
@@ -162,7 +162,7 @@ export default function AboutPage() {
                   </CardHeader>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all">
+                <Card className="hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] hover:-translate-y-2 transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-2">
                       <Rocket className="w-6 h-6 text-primary" />
@@ -174,7 +174,7 @@ export default function AboutPage() {
                   </CardHeader>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all">
+                <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                   <CardHeader>
                     <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-2">
                       <Shield className="w-6 h-6 text-primary" />
@@ -186,7 +186,7 @@ export default function AboutPage() {
                   </CardHeader>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all">
+                <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                   <CardHeader>
                     <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-2">
                       <Globe className="w-6 h-6 text-primary" />
@@ -209,7 +209,7 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto">
             {/* Section Header */}
             <div className="text-center space-y-4 mb-16">
-              <Badge variant="outline" className="mx-auto">
+              <Badge variant="outline" className="mx-auto rounded-2xl">
                 Our Values
               </Badge>
               <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
@@ -223,7 +223,7 @@ export default function AboutPage() {
 
             {/* Values Grid */}
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <Users className="w-6 h-6 text-primary" />
@@ -236,7 +236,7 @@ export default function AboutPage() {
                 </CardHeader>
               </Card>
 
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <Lightbulb className="w-6 h-6 text-primary" />
@@ -249,7 +249,7 @@ export default function AboutPage() {
                 </CardHeader>
               </Card>
 
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <Heart className="w-6 h-6 text-primary" />
@@ -262,7 +262,7 @@ export default function AboutPage() {
                 </CardHeader>
               </Card>
 
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <TrendingUp className="w-6 h-6 text-primary" />
@@ -275,7 +275,7 @@ export default function AboutPage() {
                 </CardHeader>
               </Card>
 
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <Shield className="w-6 h-6 text-primary" />
@@ -288,7 +288,7 @@ export default function AboutPage() {
                 </CardHeader>
               </Card>
 
-              <Card className="hover:shadow-lg transition-all">
+              <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
                 <CardHeader>
                   <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
                     <Zap className="w-6 h-6 text-primary" />
@@ -310,7 +310,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
-              <Badge variant="outline" className="mx-auto">
+              <Badge variant="outline" className="mx-auto rounded-2xl">
                 Our Story
               </Badge>
               <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
@@ -318,29 +318,28 @@ export default function AboutPage() {
               </h2>
             </div>
 
-            <Card className="p-8 md:p-12">
-              <CardContent className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+            <Card className="group hover:shadow-[0_0_40px_rgba(59,130,246,0.5)] hover:-translate-y-2 transition-all duration-300 ease-out cursor-pointer">
+              <CardContent className="p-8 md:p-12 space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  EventSync started in early 2023 when a team of event
-                  organizers and software developers came together with a shared
-                  frustration: why was event management still so difficult?
+                  EventSync started at a hackathon when our team noticed
+                  something obvious but overlooked: event management tools were
+                  either too complex, too outdated, or too slow.
                 </p>
                 <p>
-                  After countless hours of research, user interviews, and
-                  prototyping, we launched our first version. The response was
-                  overwhelming. Users loved how intuitive and powerful the
-                  platform was.
+                  Instead of waiting for a perfect moment, we decided to build
+                  the solution ourselves — in just 24 hours.
                 </p>
                 <p>
-                  Today, EventSync serves thousands of users worldwide, from
-                  small community organizers to large enterprise teams.
-                  We&apos;re constantly evolving, guided by feedback from our
-                  amazing community.
+                  Fueled by energy drinks, quick user testing, and nonstop
+                  prototyping, we created the first version of EventSync. What
+                  surprised us was the reaction: people immediately loved the
+                  simplicity, the speed, and the way everything just worked.
                 </p>
                 <p className="font-semibold text-foreground pt-4">
-                  But we&apos;re just getting started. The future of event
-                  management is bright, and we&apos;re excited to build it
-                  together with you.
+                  Since then, EventSync has grown far beyond that initial build.
+                  It now helps organizers of all sizes — from student clubs to
+                  full-scale organizations — manage events with automation, and
+                  a clean, modern interface.
                 </p>
               </CardContent>
             </Card>
